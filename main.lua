@@ -61,9 +61,9 @@ function love.load()
     local font = love.graphics.newFont("ttf/at01.ttf", height * 1/16)
     love.graphics.setFont(font)
 
-    hit_sound = love.audio.newSource("ogg/ping_pong_8bit_plop.ogg", "static")
-    brick_sound = love.audio.newSource("ogg/ping_pong_8bit_beeep.ogg", "static")
-    lose_sound = love.audio.newSource("ogg/ping_pong_8bit_peeeeeep.ogg", "static")
+    hit_sound = love.audio.newSource("wav/ping_pong_8bit_plop.wav", "static")
+    brick_sound = love.audio.newSource("wav/ping_pong_8bit_beeep.wav", "static")
+    lose_sound = love.audio.newSource("wav/ping_pong_8bit_peeeeeep.wav", "static")
     
     hit_sound:setVolume(5.0)
 
